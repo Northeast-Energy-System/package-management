@@ -15,7 +15,7 @@
 
 ## Create sonar user to manage the SonarQube server
 ```sh
-#As a good security practice, SonarQuber Server is not advised to run sonar service as a root user, 
+#As a good security practice, SonarQuber Server is  advised to run sonar service as a root user, 
 # create a new user called sonar and grant sudo access to manage sonar services as follows
 
 sudo useradd sonar
